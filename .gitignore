@@ -1,0 +1,7 @@
+/vendor/
+/web/bower_components/
+/var/cache/*
+/var/log/*
+/app/cache/*
+.DS_Store
+.idea

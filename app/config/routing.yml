@@ -1,0 +1,3 @@
+home:
+  path: home
+  controller: WebSite\Controller\HomeController:homeAction

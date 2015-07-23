@@ -1,0 +1,14 @@
+site:
+  name: 'My Website'
+  description: 'My Website is...'
+doctrine:
+  dbname: your_db_name
+  user: root
+  password: 
+  host: localhost
+  driver: pdo_mysql
+security:
+  secret: '}@[])(-AG464x2;#.$_/'
+router:
+  prefixe: ''
+  host: localhost
