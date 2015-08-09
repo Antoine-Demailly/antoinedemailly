@@ -1,0 +1,19 @@
+<?php require_once __DIR__.'/header.phtml'; ?>
+	
+	<div class="visible content">
+
+		<?php require_once __DIR__.'/permanent.phtml'; ?>
+
+		<div class="dynamic content">
+
+			<?php require_once __DIR__.$response['html_view_dynamic']; ?>
+			
+		</div>
+		
+	</div>
+
+	<div class="hidden content">
+		
+	</div>
+
+<?php require_once __DIR__.'/footer.phtml'; ?>
