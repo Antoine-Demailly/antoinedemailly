@@ -6,4 +6,4 @@ use Website\Kernel;
 
 require __DIR__ . '/../vendor/autoload.php';
 
-$kernel = new Kernel;
+$app = new Kernel;
